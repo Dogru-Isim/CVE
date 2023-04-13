@@ -1,2 +1,2 @@
-# CVE
-Collection of CVEs
+# CVE-POC
+Collection of CVEs/POCs

